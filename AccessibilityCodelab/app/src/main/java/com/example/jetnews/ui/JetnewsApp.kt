@@ -56,7 +56,6 @@ fun JetnewsApp(
         val currentRoute = navBackStackEntry?.destination?.route ?: MainDestinations.HOME_ROUTE
 
         val drawerState = rememberDrawerState(DrawerValue.Closed)
-        val scope = rememberCoroutineScope()
 
         ModalNavigationDrawer(
             drawerState = drawerState,
