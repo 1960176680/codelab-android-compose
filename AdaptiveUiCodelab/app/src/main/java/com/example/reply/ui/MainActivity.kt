@@ -46,41 +46,41 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-@Preview(showBackground = true)
-@Composable
-fun ReplyAppPreview() {
-    ReplyTheme {
-        ReplyApp(
-            replyHomeUIState = ReplyHomeUIState(
-                emails = LocalEmailsDataProvider.allEmails
-            ),
-            onEmailClick = {}
-        )
-    }
-}
-
-@Preview(showBackground = true, widthDp = 700)
-@Composable
-fun ReplyAppPreviewTablet() {
-    ReplyTheme {
-        ReplyApp(
-            replyHomeUIState = ReplyHomeUIState(
-                emails = LocalEmailsDataProvider.allEmails
-            ),
-            onEmailClick = {}
-        )
-    }
-}
-
-@Preview(showBackground = true, widthDp = 1000)
-@Composable
-fun ReplyAppPreviewDesktop() {
-    ReplyTheme {
-        ReplyApp(
-            replyHomeUIState = ReplyHomeUIState(
-                emails = LocalEmailsDataProvider.allEmails
-            ),
-            onEmailClick = {}
-        )
-    }
-}
+//@Preview(showBackground = true)
+//@Composable
+//fun ReplyAppPreview() {
+//    ReplyTheme {
+//        ReplyApp(
+//            replyHomeUIState = ReplyHomeUIState(
+//                emails = LocalEmailsDataProvider.allEmails
+//            ),
+//            onEmailClick = {}
+//        )
+//    }
+//}
+//
+//@Preview(showBackground = true, widthDp = 700)
+//@Composable
+//fun ReplyAppPreviewTablet() {
+//    ReplyTheme {
+//        ReplyApp(
+//            replyHomeUIState = ReplyHomeUIState(
+//                emails = LocalEmailsDataProvider.allEmails
+//            ),
+//            onEmailClick = {}
+//        )
+//    }
+//}
+//
+//@Preview(showBackground = true, widthDp = 1000)
+//@Composable
+//fun ReplyAppPreviewDesktop() {
+//    ReplyTheme {
+//        ReplyApp(
+//            replyHomeUIState = ReplyHomeUIState(
+//                emails = LocalEmailsDataProvider.allEmails
+//            ),
+//            onEmailClick = {}
+//        )
+//    }
+//}

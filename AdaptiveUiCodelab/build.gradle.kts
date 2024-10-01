@@ -16,7 +16,8 @@
 
 buildscript {
     repositories {
-        google()
+        mavenLocal()
+        maven(url="https://mirrors.cloud.tencent.com/nexus/repository/maven-public")
         mavenCentral()
     }
 }
