@@ -57,9 +57,8 @@ import com.compose.performance.ui.theme.PerformanceWorkshopTheme
 class MainActivity : ComponentActivity() {
     @OptIn(ExperimentalComposeUiApi::class)
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-
+        super.onCreate(savedInstanceState)
         setContent {
             val viewModel: PerformanceCodeLabViewModel = viewModel {
                 // Allows us to start the workshop from a various screen
