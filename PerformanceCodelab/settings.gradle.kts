@@ -1,14 +1,16 @@
 pluginManagement {
     repositories {
-        google()
+        mavenLocal()
+        maven(url= "https://mirrors.cloud.tencent.com/nexus/repository/maven-public")
         mavenCentral()
-        gradlePluginPortal()
+        maven(url= "https://maven.aliyun.com/repository/gradle-plugin")
     }
 }
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
-        google()
+        mavenLocal()
+        maven(url= "https://mirrors.cloud.tencent.com/nexus/repository/maven-public")
         mavenCentral()
     }
 }
