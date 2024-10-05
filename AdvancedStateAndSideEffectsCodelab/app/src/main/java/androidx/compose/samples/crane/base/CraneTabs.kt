@@ -98,7 +98,7 @@ fun CraneTabs(
 
             Tab(
                 selected = selected,
-                onClick = { onTabSelected(CraneScreen.values()[index]) }
+                onClick = { onTabSelected(CraneScreen.entries[index]) }
             ) {
                 Text(
                     modifier = textModifier,

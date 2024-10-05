@@ -141,9 +141,9 @@ private fun HomeTabBar(
     ) { tabBarModifier ->
         CraneTabs(
             modifier = tabBarModifier,
-            titles = CraneScreen.values().map { it.name },
+            titles = CraneScreen.entries.map { it.name },
             tabSelected = tabSelected,
-            onTabSelected = { newTab -> onTabSelected(CraneScreen.values()[newTab.ordinal]) }
+            onTabSelected = { newTab -> onTabSelected(CraneScreen.entries[newTab.ordinal]) }
         )
     }
 }
